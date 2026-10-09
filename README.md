@@ -15,7 +15,7 @@ This is a Prototype, The instructions and commands in this repository are to be 
 
 ---
 ## Prerequisites & Installation
-### 1) System Requirements
+### 1 System Requirements
 Python 3.10+
 
 If you do not have PostgreSQL 14+ on your system visit https://www.postgresql.org/ and install in the installation process you will be prompted to create your password and to select extensions, select PostGIS and install it too. 
@@ -25,7 +25,7 @@ If you do have PostgreSQL 14+ on your sytem, make sure you have the PostGIS exte
 For the NASA FIRMS API Key (Free tier) visit https://firms.modaps.eosdis.nasa.gov/api/map_key/ and click the "Get MAP_KEY" , enter a valid email id and you will recieve the api key in your email.
 
 ---
-### 2) Clone & Environment Setup
+### 2 Clone & Environment Setup
 Open your terminal and create an isolated Python virtual environment.
 
 Windows:
@@ -44,12 +44,12 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 ---
-### 3) Install Dependencies
+### 3 Install Dependencies
 ```
 pip install -r requirements.txt
 ```
 ---
-### 4) Configure Environment Variables
+### 4 Configure Environment Variables
 Create a .env file in the root directory and add your credentials:
 ```
 DB_PASSWORD=your_postgres_password
@@ -140,7 +140,6 @@ python sql_console.py
 ---
 
 Made in collaboration with:- 
-@rajputpriyanshi330-prog
 @yaminitripathi2006-netizen
 @Vedannt22
 @ayuu-lab
